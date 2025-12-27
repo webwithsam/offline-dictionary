@@ -1,0 +1,1 @@
+This chrome extension was created to have offline dictionary that help pleople with no consistent internet while studying pdf and books i believe its simple and light weight if any developer wish to add or modfy check it below 
