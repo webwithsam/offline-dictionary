@@ -1,0 +1,34 @@
+{
+"manifest_version": 3,
+
+"name": "offline dictionary",
+
+"description": "An open-source offline dictionary for  browsers. search fo English words easily while reading books or viewing PDFs.",
+
+"version": "1.0",
+
+"icons":{
+        "16":"mylogo.png",
+        "48":"mylogo.png",
+        "128":"mylogo.png"  
+      },
+
+"action":{ "default_popup":"popup.html"},
+
+"permissions":["activeTab","scripting"],
+
+"web_accessible_resources":[{
+"matches":["<all_urls>"],
+"resources":["content/*"]
+}],
+
+"content_scripts":[ {"matches":["http://*/*.pdf","file://*/*.pdf","https://*/*.pdf"],"css":["./content/ndaniyacontent.css"]}],
+
+"host_permissions":["http://*/*.pdf","file://*/*.pdf","https://*/*.pdf"],
+
+"background":{
+    "service_worker":"display.js"
+    
+}
+
+}

@@ -1,0 +1,252 @@
+body{
+    width: 400px;
+}
+.thebody{
+    /* visibility: hidden; */
+   /* position: absolute; */
+    top:0;
+    background-color: rgba(139, 230, 230, 0.247); 
+}
+
+
+.mpya{
+/* border: 3px solid red; */
+width:50%;
+/* background-color: rgb(107, 221, 32); */
+position: absolute;
+
+top: 0;
+height: auto;
+right: 0;
+}
+
+.kichwa{
+display:flex;
+flex-direction:column;
+justify-content: center;
+align-items: center; 
+text-align: center;
+/* background-color: brown; */
+width: 100%;
+
+}
+
+.header{
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 15px;
+    width: 100%;
+    justify-content: end;
+    display: flex;
+    align-items: center;
+    background-color: rgba(219, 80, 80, 0.637);
+}
+
+.header .del{
+    width:20%;
+    height: 20px;
+    /* border-left: 2px solid rgb(25, 0, 255); */
+}
+
+.header .del:hover{
+    background-color: red;
+    border-radius: 4px;
+   
+}
+.small{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:20%;
+    height: 20px;
+  
+   
+}
+.small .thebox{
+    height: 5px;
+    width: 50%;
+    border: 2px solid black;
+    /* border-bottom: 2px solid black; */
+}
+.small:hover{
+    background-color: rgba(106, 71, 163, 0.308);
+}
+.header .dragme{
+   width: 100%;
+   
+   
+}
+.header .dragme:hover{
+    color: aliceblue;
+    background-color: rgb(7, 2, 2);
+    
+ }
+
+.header p:hover{
+    background-color: blue;
+    
+ }
+/* minimaizer  */
+
+
+
+.bodydic{
+    display:flex; 
+    justify-content:first baseline;
+    align-items: center; 
+    background-color: rgb(204, 135, 45); 
+    width: 100%;
+    height: 200px;  
+    flex-direction: column;
+    /* justify-content: first baseline; */
+}
+ 
+.changelunga{
+    height: 20px;
+    width: 100%;
+    /* background-color: rgb(9, 46, 78);  */
+    margin-top: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+    
+
+}
+.changelunga .gene{
+    height: 10px;
+    width: 10%;
+    border-radius: 10px;
+    border: 3px solid green;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    justify-content: flex-start;
+}
+.kw{
+    height: 5px;
+    width: 14%;
+    border-radius: 10px;
+    border: 3px solid rgb(217, 224, 217);
+    background-color: aliceblue;
+    
+   
+}
+
+
+.title1 .title{
+      margin-top: 1px;
+      margin-bottom:3px;
+    /* height: 10px; */ 
+     /* border: 3px solid red; 
+     background-color: blue; */
+    
+}
+
+ .nenolako{
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    height:30px;
+    
+ }
+ .theinput{
+    display: grid;
+    grid-template-columns: repeat(6 ,10ev);
+    grid-template-rows: 15px;
+    /* border: 2px solid rgb(8, 4, 197);  */
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+ }
+
+ .theinput input{
+    box-shadow: none;
+    border: none;
+    width: 99%; 
+    grid-area:1 / 1 / 1/ 6 ;
+    overflow: hidden;
+   /* background-color: blue; */
+    
+ }
+
+.theinput img{
+    height: 15px;
+    width: 15px;
+    background-color: aqua; 
+    border-radius: 7px;
+     /* border: 2px solid black; */
+    grid-area: 1/ 5 / 1 / 6 ;
+
+   
+ }
+ .suggestion{
+    /* border: 2px solid blue; */
+    max-height: 40px;
+    white-space: nowrap; 
+    /* background-color: rgb(212, 208, 208); */
+    /* height: 20px; */
+    width: 90%;
+    display: flex;
+    flex-direction:row;
+    /* align-content: first baseline;
+    justify-content: center; */
+   
+ }
+ 
+ .suggestion .pp{
+    text-align: left;
+ }
+ .suggestion .m1{
+    max-height: 40px;
+    overflow-x: auto;
+    scrollbar-width: thin;  
+    scrollbar-color: #888888ef transparent;
+    background-color: rgb(212, 208, 208);
+    /* border: 2px solid rgb(13, 199, 28); */
+    width: fit-content;
+   
+ }
+ .suggestion.m1::scrollbar {
+    height: 0.1px;    
+    width: 4px;       
+  }
+.maanayenyewe{
+    border: 2px solid blue;
+    overflow-x: hidden;
+    background-color: rgb(212, 208, 208);
+    height: 70px;
+    width: 90%;
+    padding: auto;
+    padding-right:10px;
+ } 
+/* .title{
+    border: 20px solid red ;
+    background-color: blueviolet;
+} */ 
+
+.mpya2{
+    height: 7%;
+    width: 5%;
+    background-color: rgb(167, 148, 148);
+    position: absolute;
+    top: 40%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px 0  0 20px ;
+    visibility: hidden;
+
+}
+ .mpya2 img{
+height: 50%;
+width: 50%;
+
+ }
+ 
